@@ -1,0 +1,57 @@
+<plugin name='fuel-common' version='0.1' grailsVersion='1.3.4 &gt; *'>
+  <author>Jacob Parma (Brekathrough Fuel)</author>
+  <authorEmail>jparma@breakthroughfuel.com</authorEmail>
+  <title>Provides access to common btf util and domain classes for fuel projects.</title>
+  <description>\
+This plugin integrates util's and domain classes across Breakthrough 
+Fuel fuel related projects such as FuelPortlets, FuelService, and FuelRatingBatchService.
+</description>
+  <documentation>http://grails.org/plugin/fuel-common</documentation>
+  <resources>
+    <resource>BuildConfig</resource>
+    <resource>Config</resource>
+    <resource>DataSource</resource>
+    <resource>UrlMappings</resource>
+    <resource>com.breakthroughfuel.fp.domain.liferay.User</resource>
+    <resource>com.breakthroughfuel.fs.domain.news.NewsItem</resource>
+    <resource>com.breakthroughfuel.fs.domain.oa.OaRegionMargin</resource>
+    <resource>com.breakthroughfuel.fs.domain.oa.OaResponse</resource>
+    <resource>com.breakthroughfuel.fs.domain.ratingquotas.Mode</resource>
+    <resource>com.breakthroughfuel.fs.domain.ratingquotas.Organization</resource>
+    <resource>com.breakthroughfuel.fs.domain.ratingquotas.OrganizationUser</resource>
+    <resource>com.breakthroughfuel.fs.domain.ratingquotas.OrganizationUserMode</resource>
+    <resource>com.breakthroughfuel.fs.domain.ratingquotas.OrganizationUserScac</resource>
+    <resource>com.breakthroughfuel.fs.domain.ratingquotas.QuotaInterval</resource>
+    <resource>com.breakthroughfuel.fs.domain.ratingquotas.RateTransaction</resource>
+    <resource>com.breakthroughfuel.fs.domain.ratingquotas.RateTransactionStop</resource>
+    <resource>com.breakthroughfuel.fs.domain.ratingquotas.RluKraftRoutingMileageOverride</resource>
+    <resource>com.breakthroughfuel.fs.domain.ratingquotas.RluShipper</resource>
+    <resource>com.breakthroughfuel.fs.domain.ratingquotas.Scac</resource>
+    <resource>com.breakthroughfuel.fs.domain.txn.Country</resource>
+    <resource>com.breakthroughfuel.fs.domain.txn.CurrencyExchangeCountryCode</resource>
+    <resource>com.breakthroughfuel.fs.domain.txn.CurrencyExchangeRate</resource>
+    <resource>com.breakthroughfuel.fs.domain.txn.Division</resource>
+    <resource>com.breakthroughfuel.fs.domain.txn.DoeRegion</resource>
+    <resource>com.breakthroughfuel.fs.domain.txn.DoeRegionReading</resource>
+    <resource>com.breakthroughfuel.fs.domain.txn.FuelLocation</resource>
+    <resource>com.breakthroughfuel.fs.domain.txn.FuelPrice</resource>
+    <resource>com.breakthroughfuel.fs.domain.txn.FuelPriceImportResult</resource>
+    <resource>com.breakthroughfuel.fs.domain.txn.FuelProvider</resource>
+    <resource>com.breakthroughfuel.fs.domain.txn.GeographicLocation</resource>
+    <resource>com.breakthroughfuel.fs.domain.txn.GeographicLocationAlias</resource>
+    <resource>com.breakthroughfuel.fs.domain.txn.IntermodalLane</resource>
+    <resource>com.breakthroughfuel.fs.domain.txn.IntermodalLaneHub</resource>
+    <resource>com.breakthroughfuel.fs.domain.txn.IntermodalLaneRailFuelLocation</resource>
+    <resource>com.breakthroughfuel.fs.domain.txn.PriceCalculationType</resource>
+    <resource>com.breakthroughfuel.fs.domain.txn.Program</resource>
+    <resource>com.breakthroughfuel.fs.domain.txn.ProgramSetting</resource>
+    <resource>com.breakthroughfuel.fs.domain.txn.RailFuelLocation</resource>
+    <resource>com.breakthroughfuel.fs.domain.txn.RailFuelPrice</resource>
+    <resource>com.breakthroughfuel.fs.domain.txn.Shipper</resource>
+    <resource>com.breakthroughfuel.fs.domain.txn.State</resource>
+    <resource>com.breakthroughfuel.fs.domain.txn.StateFuelPriceAverage</resource>
+    <resource>com.breakthroughfuel.fs.domain.txn.StateIftaReading</resource>
+  </resources>
+  <dependencies />
+  <behavior />
+</plugin>
